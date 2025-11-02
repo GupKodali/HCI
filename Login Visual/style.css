@@ -1,0 +1,145 @@
+.login-page {
+  background-color: #fbecec;
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 425px;
+  min-height: 926px;
+  position: relative;
+}
+
+.login-page .welcome-to-campus {
+  position: absolute;
+  top: 155px;
+  left: 40px;
+  width: 385px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #3c2f2f;
+  font-size: 44px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .school-email {
+  position: absolute;
+  top: 349px;
+  left: 19px;
+  width: 322px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #111010;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .password {
+  position: absolute;
+  top: 489px;
+  left: -3px;
+  width: 357px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #141414;
+  font-size: 38.4px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .text-wrapper {
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #141414;
+  font-size: 38.4px;
+  letter-spacing: 0;
+}
+
+.login-page .span {
+  font-size: 24px;
+}
+
+.login-page .rectangle {
+  top: 381px;
+  position: absolute;
+  left: 47px;
+  width: 327px;
+  height: 71px;
+  background-color: #f8b9b9;
+}
+
+.login-page .div {
+  top: 543px;
+  position: absolute;
+  left: 47px;
+  width: 327px;
+  height: 71px;
+  background-color: #f8b9b9;
+}
+
+.login-page .new-user-button {
+  display: flex;
+  flex-direction: column;
+  width: 126px;
+  height: 106px;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 4px;
+  position: absolute;
+  top: 665px;
+  left: 60px;
+}
+
+.login-page .ellipse {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 98.4px;
+  background-color: #fb0303;
+  border-radius: 59px / 49.2px;
+}
+
+.login-page .login-button {
+  display: flex;
+  flex-direction: column;
+  width: 126px;
+  height: 106px;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 4px;
+  position: absolute;
+  top: 665px;
+  left: 245px;
+}
+
+.login-page .ellipse-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 98.4px;
+  background-color: #fe0202;
+  border-radius: 59px / 49.2px;
+}
+
+.login-page .new-user {
+  position: absolute;
+  top: 691px;
+  left: 95px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.login-page .text-wrapper-2 {
+  position: absolute;
+  top: 701px;
+  left: 270px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: normal;
+}
