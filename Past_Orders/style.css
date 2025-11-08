@@ -1,0 +1,253 @@
+.past-orders-page {
+  background-color: #fbecec;
+  width: 100%;
+  min-width: 425px;
+  min-height: 926px;
+  position: relative;
+}
+
+.past-orders-page .rectangle {
+  position: absolute;
+  top: 129px;
+  left: 63px;
+  width: 299px;
+  height: 148px;
+  box-shadow: 0px 6px 4px #00000040;
+  background-color: #f8b9b9;
+}
+
+.past-orders-page .div {
+  position: absolute;
+  top: 315px;
+  left: 55px;
+  width: 299px;
+  height: 148px;
+  box-shadow: 0px 6px 4px #00000040;
+  background-color: #f8b9b9;
+}
+
+.past-orders-page .rectangle-2 {
+  position: absolute;
+  top: 528px;
+  left: 63px;
+  width: 299px;
+  height: 148px;
+  box-shadow: 0px 6px 4px #00000040;
+  background-color: #f8b9b9;
+}
+
+.past-orders-page .frame {
+  position: absolute;
+  top: 813px;
+  left: 96px;
+  width: 233px;
+  height: 79px;
+  display: flex;
+}
+
+.past-orders-page .rectangle-3 {
+  width: 233px;
+  height: 79px;
+  background-color: #f8b9b9;
+}
+
+.past-orders-page .BACK-TO-MAIN-MENU {
+  position: absolute;
+  top: 813px;
+  left: 132px;
+  width: 212px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111010;
+  font-size: 25.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.past-orders-page .package-name-date {
+  position: absolute;
+  top: 171px;
+  left: 107px;
+  width: 212px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111010;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.past-orders-page .text-wrapper {
+  top: 357px;
+  left: 107px;
+  position: absolute;
+  width: 212px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111010;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.past-orders-page .package-name-date-2 {
+  top: 570px;
+  left: 117px;
+  position: absolute;
+  width: 212px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111010;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.past-orders-page .text-wrapper-2 {
+  position: absolute;
+  top: 29px;
+  left: 26px;
+  width: 357px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/* Original CSS code should be injected here */
+
+.past-orders-page {
+  background-color: #fbecec;
+  width: 100%;
+  min-width: 425px;
+  min-height: 926px;
+  position: relative;
+}
+
+.past-orders-page .page-header {
+  position: relative;
+  padding: 29px 26px;
+}
+
+.past-orders-page .text-wrapper-2 {
+  margin: 0;
+  width: 357px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.past-orders-page .packages-list {
+  position: relative;
+}
+
+.past-orders-page .package-card {
+  position: absolute;
+  width: 299px;
+  height: 148px;
+  box-shadow: 0px 6px 4px #00000040;
+  background-color: #f8b9b9;
+}
+
+.past-orders-page .rectangle {
+  top: 129px;
+  left: 63px;
+}
+
+.past-orders-page .div {
+  top: 315px;
+  left: 55px;
+}
+
+.past-orders-page .rectangle-2 {
+  top: 528px;
+  left: 63px;
+}
+
+.past-orders-page .package-name-date,
+.past-orders-page .text-wrapper,
+.past-orders-page .package-name-date-2 {
+  position: absolute;
+  width: 212px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111010;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.past-orders-page .package-name-date p,
+.past-orders-page .text-wrapper p,
+.past-orders-page .package-name-date-2 p {
+  margin: 0;
+}
+
+.past-orders-page .package-name-date {
+  top: 171px;
+  left: 107px;
+}
+
+.past-orders-page .text-wrapper {
+  top: 357px;
+  left: 107px;
+}
+
+.past-orders-page .package-name-date-2 {
+  top: 570px;
+  left: 117px;
+}
+
+.past-orders-page .navigation-footer {
+  position: relative;
+}
+
+.past-orders-page .frame {
+  position: absolute;
+  top: 813px;
+  left: 96px;
+  width: 233px;
+  height: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.past-orders-page .frame:hover {
+  opacity: 0.9;
+}
+
+.past-orders-page .frame:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+.past-orders-page .rectangle-3 {
+  position: absolute;
+  width: 233px;
+  height: 79px;
+  background-color: #f8b9b9;
+  top: 0;
+  left: 0;
+}
+
+.past-orders-page .BACK-TO-MAIN-MENU {
+  position: relative;
+  z-index: 1;
+  width: 212px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111010;
+  font-size: 25.6px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  padding-left: 20px;
+}
