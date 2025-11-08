@@ -1,0 +1,228 @@
+.confirm-page {
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 428px;
+  min-height: 928px;
+  position: relative;
+}
+
+.confirm-page .rectangle {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  width: 425px;
+  height: 926px;
+  background-color: #fbecec;
+}
+
+.confirm-page .img {
+  position: absolute;
+  top: 638px;
+  left: 43px;
+  width: 307px;
+  height: 75px;
+}
+
+.confirm-page .text-wrapper {
+  position: absolute;
+  top: 568px;
+  left: 32px;
+  width: 350px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111010;
+  font-size: 25.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.confirm-page .line {
+  top: 548px;
+  left: 24px;
+  position: absolute;
+  width: 366px;
+  height: 4px;
+}
+
+.confirm-page .line-2 {
+  top: 614px;
+  left: 17px;
+  position: absolute;
+  width: 366px;
+  height: 4px;
+}
+
+.confirm-page .arrow {
+  position: absolute;
+  top: 495px;
+  left: 37px;
+  width: 98px;
+  height: 40px;
+}
+
+.confirm-page .CONFIRM-PURCHASE {
+  position: absolute;
+  top: 638px;
+  left: 106px;
+  width: 259px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111010;
+  font-size: 25.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.confirm-page .div {
+  position: absolute;
+  top: 271px;
+  left: 32px;
+  width: 168px;
+  height: 33px;
+  background-color: #f8b9b9;
+}
+
+.confirm-page .rectangle-2 {
+  position: absolute;
+  top: 314px;
+  left: 32px;
+  width: 168px;
+  height: 33px;
+  background-color: #f8b9b9;
+}
+
+.confirm-page .rectangle-3 {
+  position: absolute;
+  top: 152px;
+  left: 32px;
+  width: 164px;
+  height: 33px;
+  background-color: #f8b9b9;
+}
+
+.confirm-page .rectangle-4 {
+  position: absolute;
+  top: 152px;
+  left: 214px;
+  width: 168px;
+  height: 33px;
+  background-color: #f8b9b9;
+}
+
+.confirm-page .rectangle-5 {
+  position: absolute;
+  top: 393px;
+  left: 214px;
+  width: 168px;
+  height: 33px;
+  background-color: #f8b9b9;
+}
+
+.confirm-page .rectangle-6 {
+  position: absolute;
+  top: 393px;
+  left: 32px;
+  width: 168px;
+  height: 33px;
+  background-color: #f8b9b9;
+}
+
+.confirm-page .rectangle-7 {
+  position: absolute;
+  top: 269px;
+  left: 214px;
+  width: 168px;
+  height: 33px;
+  background-color: #f8b9b9;
+}
+
+.confirm-page .text-wrapper-2 {
+  position: absolute;
+  top: 157px;
+  left: 66px;
+  width: 222px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.confirm-page .text-wrapper-3 {
+  position: absolute;
+  top: 275px;
+  left: 51px;
+  width: 222px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.confirm-page .text-wrapper-4 {
+  position: absolute;
+  top: 274px;
+  left: 235px;
+  width: 222px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.confirm-page .text-wrapper-5 {
+  position: absolute;
+  top: 318px;
+  left: 51px;
+  width: 222px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.confirm-page .text-wrapper-6 {
+  position: absolute;
+  top: 397px;
+  left: 40px;
+  width: 222px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.confirm-page .text-wrapper-7 {
+  position: absolute;
+  top: 398px;
+  left: 222px;
+  width: 222px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.confirm-page .text-wrapper-8 {
+  position: absolute;
+  top: 158px;
+  left: 249px;
+  width: 97px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
