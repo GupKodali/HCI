@@ -1,25 +1,34 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="login-page" data-model-id="45:124">
-      <div class="welcome-to-campus">&nbsp;&nbsp;&nbsp;&nbsp;Welcome to<br />Campus Prime!</div>
-      <div class="school-email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School Email</div>
-      <p class="password">
-        <span class="text-wrapper">&nbsp;&nbsp;&nbsp;&nbsp;</span>
-        <span class="span">&nbsp;&nbsp;&nbsp;&nbsp;Password</span>
-      </p>
-      <div class="rectangle"></div>
-      <div class="div"></div>
-      <div class="new-user-button"><div class="ellipse"></div></div>
-      <div class="login-button"><div class="ellipse-2"></div></div>
-      <div class="new-user">New<br />User</div>
-      <div class="text-wrapper-2">Login</div>
-    </div>
-  </body>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="globals.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="login-page">
+    
+    <h1 class="welcome-title">Welcome to <br> Campus Prime!</h1>
+
+    <form id="loginForm" class="login-form">
+
+      <label for="email">School Email</label>
+      <input type="email" id="email" placeholder="example@school.edu" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter password" required>
+
+      <div class="button-row">
+        <button type="button" id="newUserBtn" class="secondary-btn">New User</button>
+        <button type="submit" id="loginBtn" class="primary-btn">Login</button>
+      </div>
+
+    </form>
+
+  </div>
+
+  <script src="../function.js" defer></script>
+</body>
 </html>
