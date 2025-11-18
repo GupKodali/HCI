@@ -5,6 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // ---------------------------
   const loginForm = document.getElementById("loginForm");
   const newUserBtn = document.getElementById("newUserBtn");
+  const viewBackArr = document.getElementById("view-back");
+  const mainBackArr = document.getElementById("main-back");
+ // Select all "View" buttons
+  const viewButtons = document.querySelectorAll(".view-btn");
 
   if (loginForm) {   // Only runs on Login page
     loginForm.addEventListener("submit", function (e) {
@@ -27,13 +31,36 @@ document.addEventListener("DOMContentLoaded", function () {
       window.location.href = "../Main Visual/Main.html";
     });
   }
+  
+   
 
+    // Named function for click handler
+    function handleViewClick() {
+        // Navigate to desired page
+        window.location.href = "../View_packages Visual/View.html";
+    }
+
+    // Attach the function to each button
+    viewButtons.forEach(function(button) {
+        button.addEventListener("click", handleViewClick);
+    });
+
+  // Switching pages:
   if (newUserBtn) {
     newUserBtn.addEventListener("click", function () {
       window.location.href = "../Main Visual/Main.html";
     });
   }
-
+  if (viewBackArr){
+  viewBackArr.addEventListener("click", function(){
+    window.location.href = "../Main Visual/Main.html";
+  });
+  }
+  if (mainBackArr){
+  mainBackArr.addEventListener("click", function(){
+    window.location.href = "../Login Visual/Login.html";
+  });
+  }
   // ---------------------------
   // MAIN PAGE LOGIC
   // ---------------------------

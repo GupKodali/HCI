@@ -125,6 +125,22 @@
     border-radius: 5px;
 }
 
+/* Footer Navigation */
+.footer-nav {
+    display: flex;
+    justify-content: space-between; /* arrow left, buttons right */
+    align-items: center;
+    margin-top: 40px;
+}
+
+/* Back Arrow */
+.back-arrow {
+    font-size: 60px;       /* make arrow very large */
+    font-weight: 800;
+    color: var(--blue);
+    cursor: pointer;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 600px) {
 
@@ -145,4 +161,5 @@
         grid-template-columns: repeat(2, 1fr); 
         justify-items: center;
     }
+
 }
