@@ -1,0 +1,242 @@
+.check-out-page-want {
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 428px;
+  min-height: 925px;
+  position: relative;
+}
+
+.check-out-page-want .rectangle {
+  position: absolute;
+  top: -1px;
+  left: 2px;
+  width: 425px;
+  height: 926px;
+  background-color: #fbecec;
+}
+
+.check-out-page-want .text-wrapper {
+  position: absolute;
+  top: 617px;
+  left: 27px;
+  width: 402px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111010;
+  font-size: 40.2px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out-page-want .div {
+  position: absolute;
+  top: 693px;
+  left: 65px;
+  width: 327px;
+  height: 63px;
+  background-color: #f8b9b9;
+}
+
+.check-out-page-want .ellipse {
+  top: 188px;
+  left: 166px;
+  position: absolute;
+  width: 107px;
+  height: 79px;
+  background-color: #fe0202;
+  border-radius: 53.44px / 39.4px;
+}
+
+.check-out-page-want .ellipse-2 {
+  top: 191px;
+  left: 289px;
+  position: absolute;
+  width: 107px;
+  height: 79px;
+  background-color: #fe0202;
+  border-radius: 53.44px / 39.4px;
+}
+
+.check-out-page-want .text-wrapper-2 {
+  position: absolute;
+  top: 211px;
+  left: 177px;
+  width: 143px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 26.8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out-page-want .text-wrapper-3 {
+  position: absolute;
+  top: 211px;
+  left: 300px;
+  width: 143px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 26.8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out-page-want .rectangle-2 {
+  position: absolute;
+  top: 116px;
+  left: 20px;
+  width: 142px;
+  height: 154px;
+  background-color: #fd0606;
+}
+
+.check-out-page-want .rectangle-3 {
+  position: absolute;
+  top: 137px;
+  left: 31px;
+  width: 121px;
+  height: 111px;
+  background-color: #d7ff12;
+}
+
+.check-out-page-want .package-name {
+  position: absolute;
+  top: 116px;
+  left: 173px;
+  width: 199px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #101010;
+  font-size: 26.8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out-page-want .ellipse-3 {
+  top: 370px;
+  left: 165px;
+  position: absolute;
+  width: 107px;
+  height: 79px;
+  background-color: #fe0202;
+  border-radius: 53.44px / 39.4px;
+}
+
+.check-out-page-want .ellipse-4 {
+  top: 373px;
+  left: 288px;
+  position: absolute;
+  width: 107px;
+  height: 79px;
+  background-color: #fe0202;
+  border-radius: 53.44px / 39.4px;
+}
+
+.check-out-page-want .text-wrapper-4 {
+  position: absolute;
+  top: 393px;
+  left: 179px;
+  width: 143px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 26.8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out-page-want .text-wrapper-5 {
+  position: absolute;
+  top: 393px;
+  left: 299px;
+  width: 143px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 26.8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out-page-want .rectangle-4 {
+  position: absolute;
+  top: 298px;
+  left: 19px;
+  width: 142px;
+  height: 154px;
+  background-color: #fd0606;
+}
+
+.check-out-page-want .rectangle-5 {
+  position: absolute;
+  top: 319px;
+  left: 30px;
+  width: 121px;
+  height: 111px;
+  background-color: #d7ff12;
+}
+
+.check-out-page-want .package-name-2 {
+  position: absolute;
+  top: 298px;
+  left: 172px;
+  width: 199px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #101010;
+  font-size: 26.8px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out-page-want .line {
+  top: 589px;
+  left: 9px;
+  position: absolute;
+  width: 420px;
+  height: 4px;
+}
+
+.check-out-page-want .img {
+  top: 674px;
+  left: 2px;
+  position: absolute;
+  width: 420px;
+  height: 4px;
+}
+
+.check-out-page-want .arrow {
+  position: absolute;
+  top: 528px;
+  left: 24px;
+  width: 113px;
+  height: 46px;
+}
+
+.check-out-page-want .text-wrapper-6 {
+  position: absolute;
+  top: 701px;
+  left: 76px;
+  width: 402px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111010;
+  font-size: 40.2px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.check-out-page-want .text-wrapper-7 {
+  position: absolute;
+  top: 486px;
+  left: 214px;
+  width: 174px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #080808;
+  font-size: 55.4px;
+  letter-spacing: 0;
+  line-height: normal;
+}
