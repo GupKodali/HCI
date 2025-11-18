@@ -3,47 +3,101 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
+    <title>Payment Form</title>
   </head>
   <body>
-    <div class="confirm-page">
-      <div class="rectangle"></div>
-      <img class="img" src="img/rectangle-148.png" />
-      <div class="text-wrapper">Total: $0.00</div>
-      <img class="line" src="img/line-3.svg" />
-      <img class="line-2" src="img/line-4.svg" />
-      <img class="arrow" src="img/arrow-3.svg" />
-      <div class="CONFIRM-PURCHASE">&nbsp;&nbsp;&nbsp;&nbsp; CONFIRM<br />$ PURCHASE $</div>
-      <div class="div"></div>
-      <div class="rectangle-2"></div>
-      <div class="rectangle-3"></div>
-      <div class="rectangle-4"></div>
-      <div class="rectangle-5"></div>
-      <div class="rectangle-6"></div>
-      <div class="rectangle-7"></div>
-      
-     <div class="text-wrapper-2">First Name</div>
-      <input type="text" id="firstName" placeholder="First Name" class="input-box" />
+    <div class="form-container">
+      <header class="page-header">
+        <h1 class="page-title" style="text-align: center;">
+          Enter Information to Purchase
+        </h1>
+      </header>
+      <div class="row name-row">
+        <div class="field">
+          <span class="right_box">First Name</span>
+          <input
+            type="text"
+            id="firstName"
+            placeholder="First Name"
+            class="input-box"
+          />
+        </div>
 
-      <div class="text-wrapper-8">Last Name</div>
-      <input type="text" id="lastName" placeholder="Last Name" class="input-box" />
+        <div class="field">
+          <span class="left_box">Last Name</span>
+          <input
+            type="text"
+            id="lastName"
+            placeholder="Last Name"
+            class="input-box"
+          />
+        </div>
+      </div>
 
-      <div class="text-wrapper-3">Card Number</div>
-      <input type="text" id="cardNumber" placeholder="Card Number" class="input-box" />
+      <!-- Card number -->
+      <div class="row">
+        <div class="field">
+          <span class="text-wrapper-3">Card Number</span>
+          <input
+            type="text"
+            id="cardNumber"
+            placeholder="Card Number"
+            class="input-box"
+          />
+        </div>
+      </div>
 
-      <div class="text-wrapper-4">CVC</div>
-      <input type="text" id="cvc" placeholder="CVC" class="input-box" />
+      <!-- CVC / Exp Date -->
+      <div class="row cvc-row">
+        <div class="field">
+          <span class="right_box">CVC</span>
+          <input
+            type="text"
+            id="cvc"
+            placeholder="CVC"
+            class="input-box"
+          />
+        </div>
 
-      <div class="text-wrapper-5">Exp Date</div>
-      <input type="text" id="expDate" placeholder="MM/YY" class="input-box" />
+        <div class="field">
+          <span class="left_box">Exp Date</span>
+          <input
+            type="text"
+            id="expDate"
+            placeholder="MM/YY"
+            class="input-box"
+          />
+        </div>
+      </div>
 
-      <div class="text-wrapper-6">Shipping Address</div>
-      <input type="text" id="shippingAddress" placeholder="Shipping Address" class="input-box" />
+      <!-- Address / Room -->
+      <div class="row address-row">
+        <div class="field">
+          <span class="text-wrapper-6">Shipping Address</span>
+          <input
+            type="text"
+            id="shippingAddress"
+            placeholder="Shipping Address"
+            class="input-box"
+          />
+        </div>
 
-      <div class="text-wrapper-7">Room Number</div>
-      <input type="text" id="roomNumber" placeholder="Room Number" class="input-box" />
-
+        <div class="field">
+          <span class="text-wrapper-7">Room Number</span>
+          <input
+            type="text"
+            id="roomNumber"
+            placeholder="Room Number"
+            class="input-box"
+          />
+        </div>
+      </div>
+       <div>
+     <span class='button' onclick="window.location.href='../Confirm/index.html'">
+        Submit Purchase
+      </span>
+    </div>
     </div>
   </body>
 </html>

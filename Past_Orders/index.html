@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Past Orders - Recent Packages</title>
-    <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main class="past-orders-page">
       <header class="page-header">
-        <h1 class="text-wrapper-2">Recent Packages</h1>
+        <h1 class="page-title" style="text-align: center;">Recent Packages</h1>
       </header>
+
       <section class="packages-list" aria-label="Recent package orders">
-        <article class="package-card rectangle">
-          <div class="package-name-date">
-            <p><strong>Package Name:</strong></p>
-            <p><strong>Date Ordered:</strong></p>
-            <p><strong>Price:</strong></p>
+        <article class="package-card">
+          <div class="package-content">
+            <p><strong>Package Name:</strong> Bathroom Essentials</p>
+            <p><strong>Date Ordered:</strong> 08/02/12</p>
+            <p><strong>Price:</strong> $300</p>
           </div>
         </article>
-        <article class="package-card div">
-          <div class="text-wrapper">
-            <p><strong>Package Name:</strong></p>
-            <p><strong>Date Ordered:</strong></p>
-            <p><strong>Price:</strong></p>
+
+        <article class="package-card">
+          <div class="package-content">
+            <p><strong>Package Name:</strong> Bedrooms</p>
+            <p><strong>Date Ordered:</strong> 10/11/12</p>
+            <p><strong>Price:</strong> $105</p>
           </div>
         </article>
-        <article class="package-card rectangle-2">
-          <div class="package-name-date-2">
-            <p><strong>Package Name:</strong></p>
-            <p><strong>Date Ordered:</strong></p>
-            <p><strong>Price:</strong></p>
+
+        <article class="package-card">
+          <div class="package-content">
+            <p><strong>Package Name:</strong> Bedrooms</p>
+            <p><strong>Date Ordered:</strong> 10/11/12</p>
+            <p><strong>Price:</strong> $1,200</p>
           </div>
         </article>
       </section>
-      <nav class="navigation-footer">
-        <a id='main-back' class="frame" role="button" aria-label="Return to main menu">
+
+      <nav class="navigation-footer" aria-label="Main navigation">
+        <a
+          id="main-back"
+          class="frame"
+          href="index.html"
+        >
           <span class="rectangle-3"></span>
-          <span class="BACK-TO-MAIN-MENU">BACK TO<br />MAIN MENU</span>
+          <span class="BACK-TO-MAIN-MENU" onclick="window.location.href='../Main Visual/Main.html'">BACK TO<br />MAIN MENU</span>
         </a>
       </nav>
     </main>
