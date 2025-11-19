@@ -34,6 +34,13 @@ html, body {
   margin-bottom: 20px;
 }
 
+.back-arrow {
+    font-size: 60px;       /* make arrow very large */
+    font-weight: 800;
+    color: var(--blue);
+    cursor: pointer;
+    text-decoration: none;
+}
 /* Package list */
 .package-list {
   display: flex;

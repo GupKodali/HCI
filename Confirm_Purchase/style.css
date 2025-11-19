@@ -57,6 +57,14 @@ body {
   flex-direction: column;
 }
 
+.back-arrow {
+    font-size: 60px;       
+    font-weight: 800;
+    color: var(--blue);
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .button {
   display: inline-block;  
   padding: 12px 20px;

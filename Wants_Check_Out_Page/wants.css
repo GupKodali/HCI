@@ -93,6 +93,14 @@ html, body {
   color: #000;
 }
 
+.back-arrow {
+    font-size: 60px;       /* make arrow very large */
+    font-weight: 800;
+    color: var(--blue);
+    cursor: pointer;
+    text-decoration: none;
+}
+
 /* Checkout bar */
 .checkout-bar {
   display: flex;
