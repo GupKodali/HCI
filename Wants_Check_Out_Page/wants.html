@@ -35,9 +35,6 @@
           <button class="delete-btn">Delete</button>
         </div>
       </div>
-
-      <!-- Add more package items here -->
-
     </div>
 
     <!-- Subtotal & Checkout -->
@@ -46,10 +43,11 @@
       <button class="checkout-btn" id="checkoutBtn">Go to Checkout</button>
     </div>
   </div>
+
   <script>
     const btn = document.getElementById('checkoutBtn');
     btn.addEventListener('click', () => {
-      window.location.href = 'confirm_purchase.html';
+      window.location.href = '../Confirm_Purchase/confirm_purchase.html';
     });
   </script>
 </body>
