@@ -1,67 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="utf-8" />
-    <title>Checkout - Need</title>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <main class="check-out-page-need">
-      <div class="rectangle" aria-hidden="true"></div>
-      <section class="cart-items" aria-label="Shopping cart items">
-        <article class="cart-item">
-          <div class="product-image-wrapper">
-            <div class="rectangle-2" aria-hidden="true"></div>
-            <div class="rectangle-3" aria-hidden="true"></div>
-          </div>
-          <div class="package-name">
-            <span class="product-title">Package Name</span>
-            <span class="product-price">$ 0.00</span>
-          </div>
-          <div class="action-buttons">
-            <button class="ellipse" aria-label="Swap package">
-              <span class="text-wrapper-2">Swap</span>
-            </button>
-            <button class="ellipse-2" aria-label="Delete package">
-              <span class="text-wrapper-3">Delete</span>
-            </button>
-          </div>
-        </article>
-        <article class="cart-item">
-          <div class="product-image-wrapper">
-            <div class="rectangle-4" aria-hidden="true"></div>
-            <div class="rectangle-5" aria-hidden="true"></div>
-          </div>
-          <div class="package-name-2">
-            <span class="product-title">Package Name</span>
-            <span class="product-price">$ 0.00</span>
-          </div>
-          <div class="action-buttons">
-            <button class="ellipse-3" aria-label="Swap package">
-              <span class="text-wrapper-4">Swap</span>
-            </button>
-            <button class="ellipse-4" aria-label="Delete package">
-              <span class="text-wrapper-5">Delete</span>
-            </button>
-          </div>
-        </article>
-      </section>
-      <nav class="navigation-section" aria-label="Navigation">
-        <a href="#" class="arrow-link" aria-label="Go back">
-          <img class="arrow" src="img/arrow-4.svg" alt="" />
-        </a>
-        <h1 class="text-wrapper-7">Need</h1>
-      </nav>
-      <img class="line" src="img/line-1.svg" alt="" role="presentation" />
-      <section class="checkout-section" aria-label="Checkout summary">
-        <div class="text-wrapper" role="status" aria-live="polite">Subtotal: $0.00</div>
-        <img class="img" src="img/line-2.svg" alt="" role="presentation" />
-        <a href="#" class="div" aria-label="Proceed to checkout">
-          <span class="text-wrapper-6">Go to Checkout</span>
-        </a>
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="needs.css" />
+  <title>Want Page</title>
+</head>
+<body>
+  <div class="check-out-page-want">
+    
+    <h1 class="page-title">Need</h1>
+
+    <!-- Package Items -->
+    <div class="package-list">
+      
+      <div class="package-item">
+        <div class="package-info">
+          <div class="package-name">Package Name</div>
+          <div class="package-price">$0.00</div>
+        </div>
+        <div class="package-actions">
+          <button class="swap-btn">Swap</button>
+          <button class="delete-btn">Delete</button>
+        </div>
+      </div>
+
+      <div class="package-item">
+        <div class="package-info">
+          <div class="package-name">Package Name</div>
+          <div class="package-price">$0.00</div>
+        </div>
+        <div class="package-actions">
+          <button class="swap-btn">Swap</button>
+          <button class="delete-btn">Delete</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subtotal & Checkout -->
+    <div class="checkout-bar">
+      <div class="subtotal">Subtotal: $0.00</div>
+      <button class="checkout-btn" id="checkoutBtn">Go to Checkout</button>
+    </div>
+  </div>
+
+  <script>
+    const btn = document.getElementById('checkoutBtn');
+    btn.addEventListener('click', () => {
+      window.location.href = '../Confirm_Purchase/confirm_purchase.html';
+    });
+  </script>
+</body>
 </html>
