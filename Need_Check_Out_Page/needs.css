@@ -120,6 +120,14 @@ html, body {
   cursor: pointer;
 }
 
+.go-back-btn {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 /* Responsive */
 @media (max-width: 600px) {
   .package-list {

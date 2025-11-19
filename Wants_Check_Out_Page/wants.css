@@ -134,9 +134,14 @@ html, body {
     gap: 10px;
     margin-top: 10px;
   }
-  .checkout-bar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
+
+.go-back-btn {
+  font-size: 40px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
 }

@@ -35,6 +35,7 @@
           <button class="delete-btn">Delete</button>
         </div>
       </div>
+      
     </div>
 
     <!-- Subtotal & Checkout -->
@@ -42,7 +43,12 @@
       <div class="subtotal">Subtotal: $0.00</div>
       <button class="checkout-btn" id="checkoutBtn">Go to Checkout</button>
     </div>
+    <nav class="go-back-btn">
+        <a href="../Main Visual/Main.html" class="back-arrow">&larr;</a>
+      </nav>
   </div>
+
+
 
   <script>
     const btn = document.getElementById('checkoutBtn');
@@ -50,5 +56,6 @@
       window.location.href = '../Confirm_Purchase/confirm_purchase.html';
     });
   </script>
+
 </body>
 </html>
