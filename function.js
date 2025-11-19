@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const newUserBtn = document.getElementById("newUserBtn");
   const viewBackArr = document.getElementById("view-back");
   const mainBackArr = document.getElementById("main-back");
+  const settingBtn = document.getElementById("setting-btn");
  // Select all "View" buttons
   const viewButtons = document.querySelectorAll(".view-btn");
 
@@ -59,6 +60,11 @@ document.addEventListener("DOMContentLoaded", function () {
   if (mainBackArr){
   mainBackArr.addEventListener("click", function(){
     window.location.href = "../Login Visual/Login.html";
+  });
+  }
+  if (settingBtn){
+    settingBtn.addEventListener("click", function(){
+    window.location.href = "../Setting/settings.html";
   });
   }
   // ---------------------------
